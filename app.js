@@ -28,8 +28,8 @@
 //     });
 // });
 
-const temp = ["a","b","c","d","e"]
+/* const temp = ["a","b","c","d","e"]
 for (i=0;i<temp.length;i++)
 {
     document.write(temp[i]);
-}
+} */

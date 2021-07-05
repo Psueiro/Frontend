@@ -1,3 +1,12 @@
-$ancho: 720px;
-$bluesp: #4275f4
+@import "upper";
+@import "header";
+@import "navigation";
 
+$ancho: 720px;
+$bluesp: #4275f4;
+
+body{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
