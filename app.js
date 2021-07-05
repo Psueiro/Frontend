@@ -1,9 +1,3 @@
-
-const os = require('os');
-
-console.log('sistema operativo: ' + os.platform());
-console.log('version sistema operativo: ' + os.release());
-
 var mysql = require('mysql2');
 
 var connection = mysql.createConnection(
@@ -14,7 +8,6 @@ var connection = mysql.createConnection(
         database: 'utn'
     }
 )
-
 connection.connect(function (error) 
 {
     if(error){

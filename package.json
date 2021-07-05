@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "mysql": "^2.18.1",
-    "mysql2": "^2.2.5"
+    "mysql2": "^2.2.5",
+    "uniq": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
