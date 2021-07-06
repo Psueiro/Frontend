@@ -1,32 +1,24 @@
-ul{
-    background-color: rgb(85, 29, 29);   
+$padddingnav: 8px;
+
+nav ul{
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
-li {
+li{
     display: inline;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: $padddingnav;
+    padding-right: $padddingnav;
 }
 
 nav{
-    position:relative;
+    position: absolute;
     text-align: center;
-}
-
-.leftNav{
-    position:absolute;
-    left: 10%;
-}
-
-.rightNav{
-    position:absolute;
-    right: 10%;
+    right: 0%;
 }
 
 nav a{
     text-decoration: none;
-    color:rgb(245, 231, 195)
+    color:rgb(54, 53, 50)
 }

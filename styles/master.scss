@@ -1,12 +1,13 @@
 @import "upper";
 @import "header";
 @import "navigation";
-
-$ancho: 720px;
-$bluesp: #4275f4;
+@import "aboveHeader";
+@import "footer";
+@import "mainbody";
 
 body{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    
 }

@@ -1,0 +1,29 @@
+$margin: 10px;
+
+.hover11{
+	display: flex;	
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+.hover11 figure {
+	background:black;
+	margin-right: $margin/2;
+	margin-left: $margin/2;
+	margin-top: $margin;
+	margin-bottom: $margin;
+	align-self:initial;
+}
+
+.hover11 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	flex-shrink: initial;
+	width:630px;
+}
+
+.hover11 figure:hover img {
+	opacity: .5;
+}
