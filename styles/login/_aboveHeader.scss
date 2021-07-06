@@ -1,0 +1,21 @@
+$upperpadding: 30px;
+
+.aboveHeader{
+    padding-left: $upperpadding;
+    position:inherit;
+    padding-bottom: 5px;
+}
+
+.disclaimer{
+    position: absolute;
+}
+
+.aboveNav{
+    position: absolute;
+    right:0%;
+    padding-right: $upperpadding;
+}
+.aboveNav a{
+    text-decoration: none;
+    color:rgb(54, 53, 50)
+}

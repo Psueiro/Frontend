@@ -1,0 +1,35 @@
+$margin:5px;
+
+body{
+  background-image: url("images/background.jpg");
+}
+
+#catalog{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: $margin;
+    justify-content: center;
+}
+
+#card{
+    margin-left: $margin;
+    margin-right: $margin;
+    margin-bottom: $margin;
+    margin-top: $margin;
+    width:190px;
+}
+
+#catalog img{
+    width:150px;
+    border: 1px solid rgb(177, 175, 175);
+}
+
+.card-name{
+  color:rgb(114, 106, 124);
+  text-transform: uppercase;
+}
+
+.card-body{
+  border: 1px solid rgb(177, 175, 175);
+  background-color:rgba(214, 189, 211, 0.685);
+}
