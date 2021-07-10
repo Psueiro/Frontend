@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "express": "^4.17.1",
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "uniq": "^1.0.1"
@@ -14,7 +15,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass --include scss styles/catalog/master.scss styles/catalogstyle.css",
+    "build-css": "node-sass --include scss styles/catalog/master.scss styles/catalogstyle.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {

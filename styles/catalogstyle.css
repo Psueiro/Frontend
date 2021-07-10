@@ -2,7 +2,8 @@
   position: relative;
   background-color: rgba(182, 191, 196, 0.164);
   padding-bottom: 90px;
-  padding-top: 5px; }
+  padding-top: 5px;
+  border: 1px solid #b1afaf; }
 
 header {
   margin-top: 30px; }
@@ -64,7 +65,7 @@ footer {
   padding-bottom: 10px; }
 
 body {
-  background-image: url("images/background.jpg"); }
+  background-image: url("../images/background.jpg"); }
 
 #catalog {
   display: flex;
@@ -73,14 +74,13 @@ body {
   justify-content: center; }
 
 #card {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin: 5px;
+  cursor: pointer;
   width: 190px; }
 
 #catalog img {
   width: 150px;
+  height: 150px;
   border: 1px solid #b1afaf; }
 
 .card-name {
@@ -90,6 +90,56 @@ body {
 .card-body {
   border: 1px solid #b1afaf;
   background-color: rgba(214, 189, 211, 0.685); }
+
+#modal-content {
+  background-color: #fefefe;
+  background-image: url("../images/background.jpg");
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; }
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+.nombredelproducto {
+  margin-top: 50px; }
+
+.bodyframe {
+  display: flex; }
+
+.imageframe img {
+  height: 500px;
+  width: 500px;
+  border: 1px solid #888; }
+
+.descriptionframe {
+  margin-left: 20px;
+  padding: 10px;
+  margin-right: 5px;
+  background-color: #888; }
+
+.description {
+  margin-top: 40px; }
 
 body {
   width: 95%;

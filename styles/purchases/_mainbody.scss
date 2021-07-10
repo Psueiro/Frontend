@@ -1,0 +1,55 @@
+$padding:10px;
+$innerpadding:20px;
+
+.body{
+	background-image: url("../images/background.jpg");
+}
+
+.main{
+	padding-left: $padding;
+	padding-right: $padding;
+	padding-top: $padding;
+	padding-bottom: $padding;
+}
+
+#listofpurchases{
+	background-color:rgba(214, 189, 211, 0.685);
+	padding-left: $innerpadding;
+	padding-right: $innerpadding;
+	padding-top: $innerpadding;
+	padding-bottom: $innerpadding;
+}
+
+.product{
+	display: flex;
+	align-content: right;
+}
+
+.productname{
+	margin-left: $innerpadding;
+}
+
+.productprice{
+	margin:auto;
+}
+
+.buybutton{
+	margin:auto;
+}
+
+.removebutton{
+	margin:auto;
+}
+
+.descriptors{
+	display: flex;
+	margin-left: $innerpadding;
+}
+
+.descriptorname{
+	margin:left;
+}
+
+.descriptorprice{
+	margin-left:19.5%;
+}

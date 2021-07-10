@@ -1,5 +1,30 @@
-.loginForm{
-    display:flex;
-    align-items: center;
-    color:red;
+.body{
+	background-image: url("../images/background.jpg");
+}
+
+html, body {
+    height: 100%;
+  }
+  
+  .form-container { 
+      text-align: center;
+      width: 100%;
+      max-width: 330px;
+      padding: 15px;
+      margin: auto;
+      background-color:rgba(214, 189, 211, 0.685);
+    }
+    
+    .container{        
+        margin-top: 10px;
+        margin-bottom: 100px;
+}
+
+#checkbox{
+    margin-top:15px;
+}
+
+#loginbutton
+{
+    margin-top: 15px;
 }

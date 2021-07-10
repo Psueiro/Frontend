@@ -1,35 +1,41 @@
-// var mysql = require('mysql2');
+const mysql = require('mysql2');
 
-// var connection = mysql.createConnection(
-//     {
-//         host: 'localhost',
-//         user: 'root',
-//         password:'1158025575',
-//         database: 'utn'
-//     }
-// )
-// connection.connect(function (error) 
-// {
+
+// const connection = mysql.createConnection(config.mysql);
+
+// connection.connect((error) =>{
 //     if(error){
-//         console.log('sale error' + error.stack);
-//         return;
+//         console.error(error);
+//         process.exit();
 //     }
-//     console.log('success');
+//     console.log("aaaaaa")
 // });
 
-// connection.query('select * from empleado', function (error, results)
-// {
-//     if(error){
-//         console.log('sale otro error' + error.stack)
-//     }
-    
-//     results.forEach(result => {
-//         console.log(result);
-//     });
-// });
 
-/* const temp = ["a","b","c","d","e"]
-for (i=0;i<temp.length;i++)
+var connection = mysql.createConnection(
+    {
+        host: '000webhost.com',
+        user: 'id17201801_root',
+        password:'Poncho11111-',
+        database: 'id17201801_lilaplata'
+    }
+)
+connection.connect(function (error) 
 {
-    document.write(temp[i]);
-} */
+    if(error){
+        console.log('sale error' + error.stack);
+        return;
+    }
+    console.log('success');
+});
+
+connection.query('select * from products', function (error, results)
+{
+    if(error){
+        console.log('sale otro error' + error.stack)
+    } 
+
+    results.forEach(result => {
+        console.log(result);
+    });
+});

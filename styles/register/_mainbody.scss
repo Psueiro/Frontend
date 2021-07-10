@@ -1,0 +1,26 @@
+$padding: 20px;
+
+.body{
+	background-image: url("../images/background.jpg");
+}
+
+.main{
+	display: flex;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.registrationform{
+	background-color: rgba(117, 112, 112, 0.26);
+	padding-left: $padding;
+	padding-right: $padding;
+	padding-top :$padding;
+	padding-bottom: $padding;
+	width:500px;
+	margin:auto;
+	border: 1px solid rgb(177, 175, 175);
+}
+
+.registerbutton{
+	margin-top: 10px;
+}

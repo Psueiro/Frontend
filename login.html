@@ -9,10 +9,10 @@
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link href="styles/indexstyle.css" rel="stylesheet">
+    <link href="styles/loginstyle.css" rel="stylesheet">
 </head>
 
-<body>
+<body class = "body">
     <div class="upper">
 
         <div class = "aboveHeader">
@@ -29,12 +29,12 @@
                         </a>
                     </li>
                     <li>
-                        <a href="index.html">
+                        <a href="wishlist.html">
                             Wishlist
                         </a>
                     </li>           
                     <li>
-                        <a href="index.html">
+                        <a href="purchases.html">
                             My Bag
                         </a>
                     </li>
@@ -66,41 +66,71 @@
                 </li>
                 <li>
                     <a href="catalog.html">
-                        Catalogo
+                        Catalog
                     </a>
                 </li>           
                 <li>
-                    <a href="index.html">
-                        Ubicación
+                    <a href="register.html">
+                        Sign In
                     </a>
                 </li>
                 <li>
-                    <a href="index.html">
-                        Consultas
+                    <a href="login.html">
+                        Log In
                     </a>
                 </li>
             </ul>
         </nav>
 
     </div>
-    <div class = "loginForm">
-        <form action ="login">
+    <main class="container">
+       
+        <div class="form-container">
 
-            <div>
-                <label for="Username">Username</label>
-                <input type="text" name ="Username" id ="username">
-            </div>
-            <div>            
-                <label for="Password">Password</label>
-                <input type="password" name = "Password" id="pass">
-            </div>
-            <div>
-                <button type="submit">
-                    Send
-                </button>
-            </div>
-        </form>
-    </div>
-</body>
+            <form action="">
+                <h3>
+                    Sign up
+                    <i class="bi bi-vector-pen"></i>
+                </h3>
+                <div>
+                    <label for="">
+                        Email
+                    </label>
+                    <input type="email" class=form-control name="email" id="email" placeholder="asdf@qwerty.com">
+                </div>
 
+                <div>
+                    <label for="">
+                        Password
+                    </label>
+                    <input type="password" class=form-control name="password" id="password" placeholder="******">
+                </div>
+
+            </form>
+
+            <div id="checkbox">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Remember
+                </label>
+            </div>
+
+            <div id="loginbutton">
+                <div class="d-grid gap-2">
+
+                    <button class="btn btn-secondary" type="button">
+                        Log In
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>
+            Copyright - Lila & Plata 2021
+        </p>
+    </footer>
+    </body>
 </html>
