@@ -12,30 +12,30 @@ const mysql = require('mysql2');
 // });
 
 
-var connection = mysql.createConnection(
-    {
-        host: '000webhost.com',
-        user: 'id17201801_root',
-        password:'Poncho11111-',
-        database: 'id17201801_lilaplata'
-    }
-)
-connection.connect(function (error) 
-{
-    if(error){
-        console.log('sale error' + error.stack);
-        return;
-    }
-    console.log('success');
-});
+// var connection = mysql.createConnection(
+//     {
+//         host: '000webhost.com',
+//         user: 'id17201801_root',
+//         password:'Poncho11111-',
+//         database: 'id17201801_lilaplata'
+//     }
+// )
+// connection.connect(function (error) 
+// {
+//     if(error){
+//         console.log('sale error' + error.stack);
+//         return;
+//     }
+//     console.log('success');
+// });
 
-connection.query('select * from products', function (error, results)
-{
-    if(error){
-        console.log('sale otro error' + error.stack)
-    } 
+// connection.query('select * from products', function (error, results)
+// {
+//     if(error){
+//         console.log('sale otro error' + error.stack)
+//     } 
 
-    results.forEach(result => {
-        console.log(result);
-    });
-});
+//     results.forEach(result => {
+//         console.log(result);
+//     });
+// });
